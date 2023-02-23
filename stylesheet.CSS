@@ -3,7 +3,7 @@
 } */
 header {
   display: flex;
-  flex: 1 1;
+  flex: 1 1 5rem;
   flex-direction: row;
   justify-content: center;
 }
@@ -14,4 +14,22 @@ div.contact_info {
 a {
   text-decoration: none;
   color: black;
+}
+#phone_icon {
+  width: 0.7em;
+  height: auto;
+  padding-right: 1em;
+}
+#email_icon {
+  width: 1em;
+  height: auto;
+  padding-right: 0.5em;
+}
+#location_icon {
+  width: 1em;
+  height: auto;
+  padding-right: 0.5em;
+}
+#left_column {
+  border-right: solid;
 }
