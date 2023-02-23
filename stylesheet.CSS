@@ -1,3 +1,17 @@
+/* * {
+  border: solid;
+} */
 header {
   display: flex;
+  flex: 1 1 10em;
+  flex-direction: row;
+  justify-content: center;
+}
+div.contact_info {
+  padding-left: 3em;
+  justify-content: flex-end;
+}
+a {
+  text-decoration: none;
+  color: black;
 }
