@@ -31,5 +31,7 @@ a {
   padding-right: 0.5em;
 }
 #left_column {
-  border-right: solid;
+  display: flex;
+  flex-direction: row;
+  border-right: solid black;
 }
