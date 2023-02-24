@@ -6,7 +6,19 @@ header {
   flex: 1 1 5rem;
   flex-direction: row;
   justify-content: center;
+  margin-bottom: auto;
+  padding-bottom: 3em;
 }
+body {
+  font-family: sans-serif;
+  margin: auto;
+  padding: 2em;
+  font-size: 10pt;
+  font-weight: lighter;
+  max-width: 800px;
+}
+
+/* Contact Info/Header */
 div.contact_info {
   padding-left: 3em;
   justify-content: flex-end;
@@ -15,6 +27,13 @@ a {
   text-decoration: none;
   color: black;
 }
+
+#name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #phone_icon {
   width: 0.7em;
   height: auto;
@@ -30,8 +49,10 @@ a {
   height: auto;
   padding-right: 0.5em;
 }
+/* Left Column */
 #left_column {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   border-right: solid black;
+  max-width: 200px;
 }
