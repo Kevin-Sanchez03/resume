@@ -49,10 +49,26 @@ a {
   height: auto;
   padding-right: 0.5em;
 }
+/* everything bellow header */
+#content {
+  display: flex;
+}
 /* Left Column */
 #left_column {
   display: flex;
   flex-direction: column;
   border-right: solid black;
-  max-width: 200px;
+  max-width: 250px;
+}
+#left_column p {
+  padding: 0.25em;
+  margin: 0em;
+}
+
+/* Right Column */
+#right_column {
+  padding-left: 2em;
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
 }
