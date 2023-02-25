@@ -7,7 +7,7 @@ header {
   flex-direction: row;
   justify-content: center;
   margin-bottom: auto;
-  padding-bottom: 3em;
+  padding-bottom: 2em;
 }
 body {
   font-family: sans-serif;
@@ -16,6 +16,15 @@ body {
   font-size: 10pt;
   font-weight: lighter;
   max-width: 750px;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+}
+ul {
+  font-family: "Times New Roman", Times, serif;
+}
+h3 {
+  margin: 0;
 }
 
 /* Contact Info/Header */
@@ -32,6 +41,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 0;
 }
 
 #phone_icon {
@@ -57,17 +67,17 @@ a {
 #left_column {
   display: flex;
   flex-direction: column;
+  padding-right: 1em;
   border-right: solid black;
   max-width: 250px;
 }
 #left_column p {
-  padding: 0.25em;
   margin: 0em;
 }
 
 /* Right Column */
 #right_column {
-  padding-left: 2em;
+  padding-left: 1em;
   display: flex;
   flex-direction: column;
   max-width: 600px;
