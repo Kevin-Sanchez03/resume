@@ -72,3 +72,11 @@ a {
   flex-direction: column;
   max-width: 600px;
 }
+#right_column a {
+  max-width: 11em;
+}
+#github_logo {
+  width: 1.5em;
+  height: auto;
+  padding-right: 0.5em;
+}
