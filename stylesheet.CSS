@@ -5,17 +5,15 @@ header {
   display: flex;
   flex: 1 1 5rem;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   margin-bottom: auto;
-  padding-bottom: 2em;
+  /* padding-bottom: 2em; */
 }
 h1 {
   font-size: 4em;
   margin-bottom: 0;
 }
-#title {
-  font-size: 2em;
-}
+
 body {
   font-family: sans-serif;
   margin: auto;
@@ -29,15 +27,20 @@ p {
 }
 ul {
   font-family: "Times New Roman", Times, serif;
+  padding-left: 1em;
+}
+h2 {
+  margin-bottom: 0;
 }
 h3 {
   margin: 0;
 }
 
 /* Contact Info/Header */
-div.contact_info {
-  padding-left: 3em;
-  justify-content: flex-end;
+.contact_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 a {
   text-decoration: none;
@@ -49,6 +52,9 @@ a {
   align-items: center;
   justify-content: center;
   margin-left: 0;
+}
+#title {
+  font-size: 2em;
 }
 
 #phone_icon {
@@ -81,7 +87,11 @@ a {
 #left_column p {
   margin: 0em;
 }
-
+.education {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.4em;
+}
 /* Right Column */
 #right_column {
   padding-left: 1em;
@@ -91,6 +101,13 @@ a {
 }
 #right_column a {
   max-width: 11em;
+}
+#exp {
+  padding-bottom: 0.4em;
+}
+.experience {
+  margin: 0;
+  margin-bottom: 0.5em;
 }
 #github_logo {
   width: 1.5em;
