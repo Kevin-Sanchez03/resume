@@ -9,6 +9,13 @@ header {
   margin-bottom: auto;
   padding-bottom: 2em;
 }
+h1 {
+  font-size: 4em;
+  margin-bottom: 0;
+}
+#title {
+  font-size: 2em;
+}
 body {
   font-family: sans-serif;
   margin: auto;
