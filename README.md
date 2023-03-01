@@ -1,5 +1,7 @@
 # Resume for CIS 133
 
+## Feedback is welcome
+
 ### Screenshot
 
 ![Screenshot](<images/Screenshot (15).png>)
